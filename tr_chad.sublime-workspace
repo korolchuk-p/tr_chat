@@ -1,0 +1,527 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_20_long_rand_hex"
+			],
+			[
+				"i",
+				"img	Tag"
+			],
+			[
+				"a",
+				"add_mes"
+			],
+			[
+				"b",
+				"BY"
+			],
+			[
+				"for",
+				"for	For Loop"
+			],
+			[
+				"db",
+				"db_con"
+			],
+			[
+				"app",
+				"application"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "tr_chad_serv.wsgi",
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "apache/h.conf",
+			"settings":
+			{
+				"buffer_size": 418,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "funcs/generators.py",
+			"settings":
+			{
+				"buffer_size": 261,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/wamp/alias/phpmyadmin.conf",
+			"settings":
+			{
+				"buffer_size": 616,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/main_views.py",
+			"settings":
+			{
+				"buffer_size": 517,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "funcs/db_work.py",
+			"settings":
+			{
+				"buffer_size": 1072,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/torrents/Others/Hacking/booksrc/tinyweb.c",
+			"settings":
+			{
+				"buffer_size": 4993,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/settings.py",
+			"settings":
+			{
+				"buffer_size": 267,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"python",
+			"print 1",
+			"dir",
+			"python t1.py"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp/www/tr_chad",
+		"/C/wamp/www/tr_chad/apache",
+		"/C/wamp/www/tr_chad/app",
+		"/C/wamp/www/tr_chad/app/templates",
+		"/C/wamp/www/tr_chad/app/views",
+		"/C/wamp/www/tr_chad/funcs"
+	],
+	"file_history":
+	[
+		"/D/torrents/Others/Hacking/booksrc/bind_port.c",
+		"/C/wamp/www/tr_chad/app/__init__.py",
+		"/C/wamp/www/tr_chad/app/tr_chad.py",
+		"/C/wamp/www/tr_chad/tr_chad.py",
+		"/C/wamp/www/tr_chad/funcs/db_work.py",
+		"/C/Users/Mall/Desktop/t1.py",
+		"/D/downloads/imap_status.sh",
+		"/C/Users/Mall/.VirtualBox/VirtualBox.xml-prev",
+		"/C/Users/Mall/Documents/mysql type to save file - Пошук Google.htm",
+		"/C/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/C/wamp/www/jqueryexample/jqueryexample.wsgi",
+		"/C/wamp/www/error.html",
+		"/C/wamp/www/staff/error.html",
+		"/C/Users/Mall/.VirtualBox/VirtualBox.xml",
+		"/C/wamp/www/tr_chad/views/main_views.py",
+		"/C/wamp/www/tr_chad/funcs/__init__.py",
+		"/C/wamp/www/tr_chad/views/__init__.py",
+		"/C/Users/Mall/Desktop/microblog-0.2/app/__init__.py",
+		"/C/wamp/www/jqueryexample/apache/h.conf",
+		"/C/wamp/www/jqueryexample/apache/apache_mydjango.conf",
+		"/C/wamp/apps/phpmyadmin4.1.14/config.inc.php",
+		"/C/wamp/www/jqueryexample/apache/jqueryexample.wsgi",
+		"/C/wamp/alias/phpmyadmin.conf",
+		"/C/wamp/scripts/config.inc.php",
+		"/C/Users/Mall/Desktop/t1 - Copy.py",
+		"/C/Users/Mall/Desktop/Flask-0.10.1/setup.py",
+		"/C/Users/Mall/Desktop/Flask-0.10.1/examples/jqueryexample/jqueryexample.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"52b",
+			"debug",
+			"c:/wamp/ww",
+			"virtua",
+			"php",
+			")\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "tr_chad_serv.wsgi",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								202,
+								213
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "apache/h.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								418,
+								418
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "funcs/generators.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/wamp/alias/phpmyadmin.conf",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								6
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/main_views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "funcs/db_work.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1072,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1072,
+								1072
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/D/torrents/Others/Hacking/booksrc/tinyweb.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4993,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1235,
+								1235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 267,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 181.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "tr_chad.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
