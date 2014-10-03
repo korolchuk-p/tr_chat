@@ -39,4 +39,9 @@ Thumbs.db
 
 
 #directories
+<<<<<<< HEAD
 apache/h.conf
+=======
+apache/log/*
+apache/h.conf
+>>>>>>> 0ab5a6de5c9b264bd21789748820ed6dd2fd532e
