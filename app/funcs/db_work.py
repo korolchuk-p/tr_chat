@@ -1,14 +1,5 @@
 import MySQLdb
-#from app.settings import g_vars
-
-
-g_vars=dict()
-
-g_vars['mysql_passwd'] = "shit8529"
-g_vars['mysql_user'] = "root"
-g_vars['mysql_database'] = "test1"
-g_vars['mysql_server'] = "localhost"
-
+from app.settings import g_vars
 
 def db_con():
 	return MySQLdb.connect(host=g_vars['mysql_server'], 
@@ -31,6 +22,8 @@ def add_mes(author, text):
 
 	return 1
 
+def to_utf8(obj):
+	return obj.encode('utf-8') 
 
 def get_mes(lasts=0):
 	db = db_con()
@@ -41,15 +34,10 @@ def get_mes(lasts=0):
 	else:
 		cur.execute("SELECT * FROM `messages`")
 
-	res=((row[0], row[1], row[2]) for row in cur.fetchall())
+	res=((row[0], row[1].decode('utf8'), row[2].decode('utf8')) for row in cur.fetchall())
 
 	cur.close()
 	db.close()	
 
 	return res
 
-
-add_mes("Kseniya","pashyk good! Trololo")
-
-# for x in get_mes(0):
-# 	print x

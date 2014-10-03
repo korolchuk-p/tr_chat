@@ -1,6 +1,7 @@
+import os
 g_vars = dict()
-g_vars['main_path'] = "C:/wamp/www/tr_chad"
-g_vars['templates_path'] = g_vars['main_path'] + '\\templates\\'
+g_vars['main_path'] = "C:\\wamp\\www\\tr_chad"
+g_vars['templates_path'] = os.path.join(g_vars['main_path'], 'app\\templates')
 
 
 
