@@ -8,5 +8,6 @@ app.permanent_session_lifetime = timedelta(days=2000)
 
 import app.views.main_views
 import app.views.handlers
+import app.views.static_files
 
 

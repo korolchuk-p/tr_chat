@@ -4,8 +4,6 @@ from app.settings import g_vars
 sys.path.append(g_vars['main_path'])
 sys.path.append(g_vars['templates_path'])
 
-for x in sys.path:
- 	print x
 
 from app import app as application
 import app.includes

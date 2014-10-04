@@ -15,6 +15,3 @@ def get_rand_hex(Len=64):
 
 
 
-
-print get_rand_hex(256)
-
