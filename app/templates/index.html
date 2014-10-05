@@ -1,0 +1,73 @@
+{% extends "layout.html" %}
+{% block body %}
+<script type=text/javascript>
+  $(function() {
+    var submit_form = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/_add_numbers', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+
+    var add_message_form = function(e) {
+      $.post($SCRIPT_ROOT + '/add', {
+        mes: $('textarea[name="mes"]').val(),
+        author: $('input[name="author"]').val()
+      }, function(data) {
+
+        alert(data);
+        location.reload(true);
+      });
+      return false;
+    };
+
+
+    $('a#calculate').bind('click', submit_form);
+
+    $('input#add_mes_but').bind('click', add_message_form);
+
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        submit_form(e);
+      }
+    });
+
+    $('input[name=a]').focus();
+  });
+</script>
+<!-- <h1>jQuery Example</h1>
+<p>
+<input type=text size=5 name=a>
++
+<input type=text size=5 name=b>
+=
+<span id='result'>?</span>
+</p>
+
+<p>
+<a href=# id='calculate'>calculate server side</a>
+</p>
+-->
+<p>first visit site:{{ date1 }}</p>
+<br>
+<h1>Messages</h1>
+<br>
+{% for (i, j, o) in mess %}
+<h3>#{{ i }} [Author {{ j }}] say:{{ o }}</h3>
+{% endfor %}
+<br>
+<h1>Add</h1>
+<form name="input" id='add_mes_form' method="post">
+author
+<br>
+<input name='author'  type='text' size="10">
+<br>
+message
+<br>
+<textarea name='mes'  type='text' rows="3" cols="50"></textarea>
+<input type="button" id='add_mes_but'  value="post"></form>
+{% endblock %}
